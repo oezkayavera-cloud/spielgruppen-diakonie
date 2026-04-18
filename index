@@ -267,36 +267,8 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
         <div class="crow">🏢 <span>Diakonieverein Buchloe e.V.</span></div>
       </div>
     </div>
-    <div class="fcard">
-      <h3>Voranmeldung & Anfrage</h3>
-      <p>Wir melden uns innerhalb von 2 Werktagen.</p>
-      <form onsubmit="handleForm(event)">
-        <div class="frow">
-          <div class="fg"><label>Vorname Kind *</label><input type="text" placeholder="z.B. Emma" required></div>
-          <div class="fg"><label>Nachname Kind *</label><input type="text" placeholder="Nachname" required></div>
-        </div>
-        <div class="fg"><label>Geburtsdatum Kind *</label><input type="date" required></div>
-        <div class="fg"><label>Name der Eltern *</label><input type="text" placeholder="Vor- und Nachname" required></div>
-        <div class="frow">
-          <div class="fg"><label>Telefon *</label><input type="tel" placeholder="01515 ..." required></div>
-          <div class="fg"><label>E-Mail *</label><input type="email" placeholder="ihre@email.de" required></div>
-        </div>
-        <div class="fg">
-          <label>Gewünschte Gruppe</label>
-          <select>
-            <option value="">Bitte wählen</option>
-            <option>🐦 Spatzengruppe (Mi, Do, Fr)</option>
-            <option>🦁 Löwengruppe (Do, Fr)</option>
-            <option>🐭 Mäusegruppe (Mo, Di, Mi)</option>
-            <option>💒 Gruppe im Dietrich Bonhoeffer Haus (Mi, Do, Fr)</option>
-            <option>Keine Präferenz / Beratung gewünscht</option>
-          </select>
-        </div>
-        <div class="fg"><label>Nachricht (optional)</label><textarea placeholder="Fragen, Besonderheiten..."></textarea></div>
-        <button type="submit" class="fsub">Anfrage absenden →</button>
-        <p class="fnote">Eure Daten werden nur zur Bearbeitung der Anfrage genutzt und nicht weitergegeben.</p>
-      </form>
-    </div>
+    <iframe data-tally-src="https://tally.so/embed/aQrjLZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="929" frameborder="0" marginheight="0" marginwidth="0" title="Anmeldung Spielgruppe"></iframe>
+    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
   </div>
 </section>
 
@@ -314,7 +286,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
     </div>
     <div class="scard">
       <div class="sname">📍 Dietrich-Bonhoeffer-Haus</div>
-      <div class="srow">🐦 <span>💒 Gruppe im Dietrich Bonhoeffer Haus: Mi, Do, Fr · 8:30–12:00 Uhr</span></div>
+      <div class="srow">💒 <span>Gruppe im Dietrich Bonhoeffer Haus: Mi, Do, Fr · 8:30–12:00 Uhr</span></div>
       <div class="sadr">Neben der evangelischen Kirche, Buchloe</div>
       <div class="srow">📞 <span>01515 3962785 · Lisa Schneider</span></div>
       <div class="srow">✉️ <span>spielgruppediakonieverein@gmail.com</span></div>
