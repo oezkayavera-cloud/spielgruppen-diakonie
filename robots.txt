@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://spielgruppe-buchloe.de/sitemap.xml
+Sitemap: https://spielgruppen-buchloe.de/sitemap.xml
