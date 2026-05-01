@@ -2,6 +2,35 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
+  <title>Wir lieben Cookies 🍪</title>
+  <style id="COOKIE_CSS_BLOCK">
+/* ── Cookie-Banner ─────────────────────────────── */
+#cookie-banner{
+  position:fixed;bottom:0;left:0;right:0;z-index:9999;
+  background:var(--dunkel);
+  padding:18px 5%;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  box-shadow:0 -4px 24px rgba(0,0,0,.18);
+  transform:translateY(100%);
+  transition:transform .4s cubic-bezier(.22,1,.36,1);
+}
+#cookie-banner.visible{transform:translateY(0);}
+.cb-text{flex:1;min-width:220px;}
+.cb-text p{font-family:var(--font-b);font-size:13px;color:rgba(255,255,255,.75);line-height:1.6;margin:0;}
+.cb-text a{color:var(--blau);text-decoration:none;}
+.cb-text a:hover{text-decoration:underline;}
+.cb-actions{display:flex;gap:10px;flex-shrink:0;flex-wrap:wrap;}
+.cb-accept{background:var(--blau);color:white;font-family:var(--font-h);font-size:13px;font-weight:800;padding:10px 22px;border-radius:100px;border:none;cursor:pointer;white-space:nowrap;}
+.cb-accept:hover{background:var(--blau-dk);}
+.cb-decline{background:transparent;color:rgba(255,255,255,.55);font-family:var(--font-h);font-size:13px;font-weight:700;padding:10px 16px;border-radius:100px;border:1px solid rgba(255,255,255,.2);cursor:pointer;white-space:nowrap;}
+.cb-decline:hover{color:white;border-color:rgba(255,255,255,.4);}
+@media(max-width:560px){
+  #cookie-banner{flex-direction:column;align-items:flex-start;}
+  .cb-actions{width:100%;}
+  .cb-accept,.cb-decline{flex:1;text-align:center;}
+}
+/* ── Ende Cookie-Banner ─────────────────────────── */
+</style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ökumenische Spielgruppen · Diakonieverein Buchloe</title>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -129,7 +158,21 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
 .reveal.vis{opacity:1;transform:none;}
 </style>
 </head>
-<body>
+<div id="cookie-banner" role="dialog" aria-label="Cookie-Hinweis" aria-live="polite">
+  <div class="cb-text">
+    <p>
+      Diese Website verwendet technisch notwendige Cookies sowie Inhalte von Drittanbietern
+      (Tally.so für das Anmeldeformular, Google Fonts, Netlify-Hosting). 
+      Mit „Akzeptieren" stimmen Sie der Einbindung dieser Dienste zu.
+      Mehr dazu in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
+    </p>
+  </div>
+  <div class="cb-actions">
+    <button class="cb-decline" id="cb-decline-btn">Nur notwendige</button>
+    <button class="cb-accept" id="cb-accept-btn">Akzeptieren</button>
+  </div>
+</div>
+  <body>
 
 <nav>
   <div class="nav-logo">
@@ -143,7 +186,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
   <img class="hero-img" src="https://raw.githubusercontent.com/oezkayavera-cloud/spielgruppen-diakonie/b0078af659e986942e365bf81d0380c5ca56402a/WhatsApp%20Image%202026-03-26%20at%2016.41.01%20(3).jpeg">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-badge">📅 Anmeldungab sofort möglich</div>
+    <div class="hero-badge">📅 Anmeldung ab sofort möglich</div>
     <h1 class="hero-title">Der erste Schritt<br>in die <em>Gesellschaft.</em></h1>
     <p class="hero-sub">Ökumenische Spielgruppen für Kinder ab ca. 1,5 bis 3 Jahren — behutsam, spielerisch, professionell begleitet. Drei Gruppen, zwei Standorte in Buchloe.</p>
     <div class="hero-btns">
@@ -195,7 +238,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
       <div class="gbody">
         <div class="gicon">🐦</div>
         <div class="gname">Spatzengruppe</div>
-        <span class="gtag">Mi · Do · Fr · 8:30–12:00 Uhr</span>
+        <span class="gtag">Do · Fr · 8:30–12:00 Uhr</span>
         <p class="gtx">Mehrgenerationenhaus · Bis zu 12 Kinder · Ausgebildete Erzieherinnen</p>
       </div>
     </div>
@@ -204,7 +247,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
       <div class="gbody">
         <div class="gicon">🦁</div>
         <div class="gname">Löwengruppe</div>
-        <span class="gtag">Do · Fr · 8:30–12:00 Uhr</span>
+        <span class="gtag">Mi · Do · Fr · 8:30–12:00 Uhr</span>
         <p class="gtx">Mehrgenerationenhaus · Bis zu 12 Kinder · Erzieherin & Kinderpflegerin</p>
       </div>
     </div>
@@ -213,7 +256,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
       <div class="gbody">
         <div class="gicon">🐭</div>
         <div class="gname">Mäusegruppe</div>
-        <span class="gtag">Mo · Di · Mi · 8:15–1:45 Uhr</span>
+        <span class="gtag">Mo · Di · Mi · 8:15–11:45 Uhr</span>
         <p class="gtx">Mehrgenerationenhaus · Bis zu 12 Kinder · Erzieherin & Kinderpflegerin</p>
       </div>
     </div>
@@ -279,9 +322,9 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
   <div class="std-grid">
     <div class="scard">
       <div class="sname">📍 Mehrgenerationenhaus</div>
-      <div class="sadr">Kaufbeurener Str. 4, Buchloe</div>
-      <div class="srow">🐦 <span>Spatzengruppe: Mi, Do, Fr · 8:30–12:00 Uhr</span></div>
-      <div class="srow">🦁 <span>Löwengruppe: Do, Fr · 8:30–12:00 Uhr</span></div>
+      <div class="sadr">Kaufbeurer Str. 4, Buchloe</div>
+      <div class="srow">🐦 <span>Spatzengruppe: Do, Fr · 8:30–12:00 Uhr</span></div>
+      <div class="srow">🦁 <span>Löwengruppe: Mi, Do, Fr · 8:30–12:00 Uhr</span></div>
       <div class="srow">🐭 <span>Mäusegruppe: Mo, Di, Mi · 8:15–11:45 Uhr</span></div>
     </div>
     <div class="scard">
@@ -314,7 +357,7 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
   </div>
   <div class="fbot">
     <p>© 2026 Diakonieverein Buchloe e.V. · Ökumenische Spielgruppen</p>
-    <p>Datenschutz · Impressum</p>
+    <p><a href="datenschutz.html" style="color:rgba(255,255,255,.5);text-decoration:none;">Datenschutz</a> · <a href="impressum.html" style="color:rgba(255,255,255,.5);text-decoration:none;">Impressum</a></p>
   </div>
 </footer>
 
@@ -331,6 +374,28 @@ function handleForm(e) {
   btn.style.background = '#1a8040';
   btn.disabled = true;
 }
+</script>
+    <script id="COOKIE_SCRIPT_BLOCK">
+(function(){
+  var CONSENT_KEY = 'cookie_consent';
+  var banner = document.getElementById('cookie-banner');
+ 
+  // Nur anzeigen, wenn noch keine Entscheidung getroffen wurde
+  if (!localStorage.getItem(CONSENT_KEY)) {
+    // Kurze Verzögerung, damit der Banner schön einblendet
+    setTimeout(function(){ banner.classList.add('visible'); }, 600);
+  }
+ 
+  document.getElementById('cb-accept-btn').addEventListener('click', function(){
+    localStorage.setItem(CONSENT_KEY, 'accepted');
+    banner.classList.remove('visible');
+  });
+ 
+  document.getElementById('cb-decline-btn').addEventListener('click', function(){
+    localStorage.setItem(CONSENT_KEY, 'declined');
+    banner.classList.remove('visible');
+  });
+})();
 </script>
 </body>
 </html>
