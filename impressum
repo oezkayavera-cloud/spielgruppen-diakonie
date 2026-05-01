@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum · Ökumenische Spielgruppen Buchloe</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --blau:#0193de;--blau-dk:#0176b3;--blau-hell:#cceaf9;--blau-soft:#eaf6fd;
+  --weiss:#fff;--creme:#fdf9f4;--warm:#f0a830;--dunkel:#1a2e3d;--grau:#5d7080;
+  --font-h:'Nunito',sans-serif;--font-b:'Lora',serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e0eef6;padding:0 5%;height:60px;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.nav-badge{width:36px;height:36px;background:var(--blau);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:white;}
+.nav-name{font-size:13px;font-weight:800;color:var(--blau);line-height:1.2;}
+.nav-back{background:transparent;color:var(--blau);font-family:var(--font-h);font-size:13px;font-weight:800;padding:8px 18px;border-radius:100px;border:1.5px solid var(--blau);cursor:pointer;text-decoration:none;}
+
+.page-header{margin-top:60px;background:var(--blau-soft);padding:56px 6% 44px;}
+.page-header .eyebrow{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--blau);margin-bottom:8px;}
+.page-header h1{font-size:clamp(26px,4vw,42px);font-weight:900;color:var(--dunkel);line-height:1.15;margin-bottom:10px;}
+.page-header p{font-family:var(--font-b);font-size:15px;color:var(--grau);}
+
+.content{max-width:780px;margin:0 auto;padding:56px 6%;}
+.content h2{font-size:20px;font-weight:900;color:var(--dunkel);margin:36px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--blau-hell);}
+.content h2:first-child{margin-top:0;}
+.content h3{font-size:16px;font-weight:800;color:var(--blau);margin:22px 0 7px;}
+.content p{font-family:var(--font-b);font-size:15px;color:var(--grau);line-height:1.75;margin-bottom:12px;}
+.content a{color:var(--blau);text-decoration:none;}
+.content a:hover{text-decoration:underline;}
+.info-box{background:var(--blau-soft);border-radius:16px;padding:24px 26px;margin:18px 0;}
+.info-box p{margin-bottom:6px;}
+.info-box p:last-child{margin-bottom:0;}
+
+footer{background:var(--dunkel);color:white;padding:36px 6%;}
+.fbot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+.fbot p{font-size:12px;color:rgba(255,255,255,.3);font-family:var(--font-b);}
+.fbot a{font-size:12px;color:rgba(255,255,255,.5);font-family:var(--font-b);text-decoration:none;}
+.fbot a:hover{color:white;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-badge">ÖS</div>
+    <div class="nav-name">Ökum. Spielgruppen<br>Buchloe</div>
+  </a>
+  <a href="index.html" class="nav-back">← Zurück zur Startseite</a>
+</nav>
+
+<div class="page-header">
+  <p class="eyebrow">Rechtliches</p>
+  <h1>Impressum</h1>
+  <p>Pflichtangaben gemäß § 5 TMG</p>
+</div>
+
+<div class="content">
+
+  <h2>Angaben gemäß § 5 TMG</h2>
+  <div class="info-box">
+    <p><strong>Diakonieverein Buchloe e.V.</strong></p>
+    <p><Eschenweg 12></p>
+    <p><86860 Jengen></p>
+    <p>Deutschland</p>
+  </div>
+
+  <h2>Kontakt</h2>
+  <div class="info-box">
+    <p>Ansprechpartnerin: Lisa Schneider</p>
+    <p>Telefon: <a href="tel:015153962785">01515 3962785</a></p>
+    <p>E-Mail: <a href="mailto:spielgruppediakonieverein@gmail.com">spielgruppediakonieverein@gmail.com</a></p>
+  </div>
+
+  <h2>Vereinsregister</h2>
+  <div class="info-box">
+    <p>Eingetragener Verein</p>
+    <p>Registergericht: <!-- z. B. Amtsgericht Kaufbeuren --></p>
+    <p>Registernummer: <!-- VR … --></p>
+  </div>
+
+  <h2>Vertretungsberechtigte Person</h2>
+  <div class="info-box">
+    <p><!-- Name des/der Vorsitzenden --></p>
+  </div>
+
+  <h2>Inhaltlich Verantwortliche gemäß § 18 Abs. 2 MStV</h2>
+  <div class="info-box">
+    <p>Ulrich Busch</p>
+    <p>Anschrift wie oben</p>
+  </div>
+
+  <h2>Haftungsausschluss</h2>
+  <h3>Haftung für Inhalte</h3>
+  <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.</p>
+
+  <h3>Haftung für Links</h3>
+  <p>Unsere Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+
+  <h3>Urheberrecht</h3>
+  <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+
+  <h2>Bildnachweise</h2>
+  <p>Die auf dieser Website verwendeten Fotos stammen aus dem eigenen Bestand des Diakonievereins Buchloe e.V. bzw. wurden von der Spielgruppe zur Verfügung gestellt.</p>
+
+</div>
+
+<footer>
+  <div class="fbot">
+    <p>© 2026 Diakonieverein Buchloe e.V. · Ökumenische Spielgruppen</p>
+    <div style="display:flex;gap:18px;">
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="index.html">Startseite</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
