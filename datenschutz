@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung · Ökumenische Spielgruppen Buchloe</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --blau:#0193de;--blau-dk:#0176b3;--blau-hell:#cceaf9;--blau-soft:#eaf6fd;
+  --weiss:#fff;--creme:#fdf9f4;--warm:#f0a830;--dunkel:#1a2e3d;--grau:#5d7080;
+  --font-h:'Nunito',sans-serif;--font-b:'Lora',serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e0eef6;padding:0 5%;height:60px;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.nav-badge{width:36px;height:36px;background:var(--blau);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:white;}
+.nav-name{font-size:13px;font-weight:800;color:var(--blau);line-height:1.2;}
+.nav-back{background:transparent;color:var(--blau);font-family:var(--font-h);font-size:13px;font-weight:800;padding:8px 18px;border-radius:100px;border:1.5px solid var(--blau);cursor:pointer;text-decoration:none;}
+
+.page-header{margin-top:60px;background:var(--blau-soft);padding:56px 6% 44px;}
+.page-header .eyebrow{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--blau);margin-bottom:8px;}
+.page-header h1{font-size:clamp(26px,4vw,42px);font-weight:900;color:var(--dunkel);line-height:1.15;margin-bottom:10px;}
+.page-header p{font-family:var(--font-b);font-size:15px;color:var(--grau);}
+
+.content{max-width:780px;margin:0 auto;padding:56px 6%;}
+.content h2{font-size:20px;font-weight:900;color:var(--dunkel);margin:36px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--blau-hell);}
+.content h2:first-child{margin-top:0;}
+.content h3{font-size:16px;font-weight:800;color:var(--blau);margin:22px 0 7px;}
+.content p{font-family:var(--font-b);font-size:15px;color:var(--grau);line-height:1.75;margin-bottom:12px;}
+.content ul{font-family:var(--font-b);font-size:15px;color:var(--grau);line-height:1.75;margin-bottom:12px;padding-left:20px;}
+.content ul li{margin-bottom:5px;}
+.content a{color:var(--blau);text-decoration:none;}
+.content a:hover{text-decoration:underline;}
+.highlight-box{background:var(--blau-soft);border-left:4px solid var(--blau);border-radius:0 12px 12px 0;padding:16px 20px;margin:18px 0;}
+.highlight-box p{margin-bottom:0;}
+
+footer{background:var(--dunkel);color:white;padding:36px 6%;}
+.fbot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+.fbot p{font-size:12px;color:rgba(255,255,255,.3);font-family:var(--font-b);}
+.fbot a{font-size:12px;color:rgba(255,255,255,.5);font-family:var(--font-b);text-decoration:none;}
+.fbot a:hover{color:white;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-badge">ÖS</div>
+    <div class="nav-name">Ökum. Spielgruppen<br>Buchloe</div>
+  </a>
+  <a href="index.html" class="nav-back">← Zurück zur Startseite</a>
+</nav>
+
+<div class="page-header">
+  <p class="eyebrow">Rechtliches</p>
+  <h1>Datenschutzerklärung</h1>
+  <p>Stand: Mai 2026 · Diakonieverein Buchloe e.V.</p>
+</div>
+
+<div class="content">
+
+  <h2>1. Verantwortlicher</h2>
+  <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
+  <div class="highlight-box">
+    <p><strong>Diakonieverein Buchloe e.V.</strong><br>
+    Kontakt: Lisa Schneider<br>
+    Telefon: 01515 3962785<br>
+    E-Mail: spielgruppediakonieverein@gmail.com</p>
+  </div>
+
+  <h2>2. Erhebung und Verarbeitung personenbezogener Daten</h2>
+  <p>Wir erheben personenbezogene Daten nur, soweit dies für die Durchführung unserer Angebote erforderlich ist. Im Folgenden erläutern wir, welche Daten wir zu welchem Zweck verarbeiten.</p>
+
+  <h3>2.1 Anmeldeformular (Tally.so)</h3>
+  <p>Auf unserer Website nutzen wir ein Anmeldeformular des Dienstleisters <strong>Tally</strong> (Tally Solutions BV, Sint-Gillislaan 15, 9000 Gent, Belgien). Wenn Sie das Formular zur Anfrage eines Spielgruppenplatzes ausfüllen und absenden, werden die von Ihnen eingegebenen Daten erhoben und verarbeitet. Dies können sein:</p>
+  <ul>
+    <li>Name und Vorname der Eltern/Erziehungsberechtigten</li>
+    <li>Name und Geburtsdatum des Kindes</li>
+    <li>Kontaktdaten (Telefon, E-Mail-Adresse)</li>
+    <li>Gewünschte Gruppe und Betreuungstage</li>
+    <li>Ggf. weitere Angaben, die Sie freiwillig mitteilen</li>
+  </ul>
+  <p><strong>Zweck:</strong> Die Verarbeitung erfolgt zur Bearbeitung Ihrer Anfrage und zur Vergabe eines Spielgruppenplatzes (Art. 6 Abs. 1 lit. b DSGVO — Vertragsanbahnung bzw. -erfüllung).</p>
+  <p>Tally verarbeitet die Daten auf Servern innerhalb der EU. Weitere Informationen finden Sie in der Datenschutzerklärung von Tally: <a href="https://tally.so/help/privacy-policy" target="_blank" rel="noopener">tally.so/help/privacy-policy</a></p>
+
+  <h3>2.2 Netlify (Hosting)</h3>
+  <p>Diese Website wird über den Dienst <strong>Netlify</strong> (Netlify Inc., 44 Montgomery Street, Suite 300, San Francisco, CA 94104, USA) gehostet. Beim Aufruf unserer Website werden durch Netlify automatisch technische Zugriffsdaten erhoben (z. B. IP-Adresse, Browsertyp, Datum und Uhrzeit des Zugriffs). Diese Daten werden für den technischen Betrieb der Website benötigt und nicht für personenbezogene Auswertungen genutzt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren Betrieb der Website).</p>
+  <p>Weitere Informationen: <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">netlify.com/privacy</a></p>
+
+  <h3>2.3 GitHub (Medien und Code)</h3>
+  <p>Bilder und Ressourcen dieser Website werden über <strong>GitHub</strong> (GitHub Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA) bereitgestellt. Beim Laden dieser Inhalte kann GitHub technische Daten wie die IP-Adresse verarbeiten. Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Statement</a></p>
+
+  <h3>2.4 Google Fonts</h3>
+  <p>Diese Website bindet Schriftarten des Dienstes <strong>Google Fonts</strong> (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) ein. Beim Aufruf der Website wird eine Verbindung zu Google-Servern hergestellt, wobei technische Daten (insbesondere die IP-Adresse) übermittelt werden können. Sofern Sie mit dieser Übermittlung nicht einverstanden sind, können Sie in Ihrem Browser die Darstellung externer Schriftarten deaktivieren. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+  <h2>3. Cookies</h2>
+  <p>Unsere Website verwendet technisch notwendige Cookies sowie, nach Ihrer Zustimmung, weitere Cookies (z. B. durch eingebettete Drittanbieter-Dienste wie Tally). Technisch notwendige Cookies sind für den Betrieb der Website erforderlich und benötigen keine gesonderte Einwilligung. Für alle anderen Cookies bitten wir beim ersten Besuch um Ihre Zustimmung.</p>
+
+  <h2>4. Speicherdauer</h2>
+  <p>Personenbezogene Daten aus Anmeldeanfragen werden gespeichert, solange dies für die Platzvergabe und die Durchführung der Spielgruppenbetreuung erforderlich ist, sowie darüber hinaus, soweit gesetzliche Aufbewahrungsfristen bestehen. Danach werden die Daten gelöscht.</p>
+
+  <h2>5. Ihre Rechte</h2>
+  <p>Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:</p>
+  <ul>
+    <li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO)</li>
+    <li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO)</li>
+    <li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO)</li>
+    <li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO)</li>
+    <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO)</li>
+    <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO)</li>
+    <li><strong>Recht auf Widerruf einer erteilten Einwilligung</strong> jederzeit mit Wirkung für die Zukunft</li>
+  </ul>
+  <p>Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href="mailto:spielgruppediakonieverein@gmail.com">spielgruppediakonieverein@gmail.com</a></p>
+  <p>Sie haben zudem das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren. In Bayern ist dies das <strong>Bayerische Landesamt für Datenschutzaufsicht (BayLDA)</strong>, Promenade 27, 91522 Ansbach, <a href="https://www.lda.bayern.de" target="_blank" rel="noopener">www.lda.bayern.de</a>.</p>
+
+  <h2>6. Keine Datenweitergabe an Dritte</h2>
+  <p>Wir geben Ihre personenbezogenen Daten nicht an Dritte weiter, es sei denn, dies ist für die Erfüllung des Betreuungsvertrags erforderlich oder gesetzlich vorgeschrieben.</p>
+
+  <h2>7. Aktualität dieser Datenschutzerklärung</h2>
+  <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Mai 2026. Durch Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern.</p>
+
+</div>
+
+<footer>
+  <div class="fbot">
+    <p>© 2026 Diakonieverein Buchloe e.V. · Ökumenische Spielgruppen</p>
+    <div style="display:flex;gap:18px;">
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="index.html">Startseite</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
