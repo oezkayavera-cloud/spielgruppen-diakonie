@@ -32,7 +32,7 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   gap: 16px;
   flex-wrap: wrap;
 }
-.cb-label {
+.cd-label {
   font-family: var(--font-h);
   font-size: 12px;
   font-weight: 800;
@@ -41,12 +41,12 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   color: var(--warm);
   white-space: nowrap;
 }
-.cb-units {
+.cd-units {
   display: flex;
   gap: 6px;
   align-items: center;
 }
-.cb-unit {
+.cd-unit {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   padding: 4px 10px;
   min-width: 46px;
 }
-.cb-num {
+.cd-num {
   font-family: var(--font-h);
   font-size: 20px;
   font-weight: 900;
@@ -64,7 +64,7 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   line-height: 1.1;
   font-variant-numeric: tabular-nums;
 }
-.cb-ulab {
+.cd-ulab {
   font-size: 9px;
   font-weight: 800;
   text-transform: uppercase;
@@ -72,14 +72,14 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   color: rgba(255,255,255,.45);
   margin-top: 1px;
 }
-.cb-sep {
+.cd-sep {
   font-size: 20px;
   font-weight: 900;
   color: rgba(255,255,255,.3);
   line-height: 1;
   margin-bottom: 12px;
 }
-.cb-cta {
+.cd-cta {
   background: var(--warm);
   color: var(--dunkel);
   font-family: var(--font-h);
@@ -90,14 +90,14 @@ body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
   text-decoration: none;
   white-space: nowrap;
 }
-.cb-cta:hover { background: #e09820; }
-#countdown-bar.expired .cb-units { display: none; }
-#countdown-bar.expired .cb-label { color: white; font-size: 13px; text-transform: none; letter-spacing: 0; }
+.cd-cta:hover { background: #e09820; }
+#countdown-bar.expired .cd-units { display: none; }
+#countdown-bar.expired .cd-label { color: white; font-size: 13px; text-transform: none; letter-spacing: 0; }
 @media(max-width:560px){
-  .cb-label { font-size: 11px; }
-  .cb-num { font-size: 17px; }
-  .cb-unit { min-width: 38px; padding: 3px 7px; }
-  .cb-cta { display: none; }
+  .cd-label { font-size: 11px; }
+  .cd-num { font-size: 17px; }
+  .cd-unit { min-width: 38px; padding: 3px 7px; }
+  .cd-cta { display: none; }
 }
  
 /* ── Inline Countdown (Anmeldebereich) ─────────────── */
