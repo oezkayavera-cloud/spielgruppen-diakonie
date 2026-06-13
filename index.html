@@ -3,9 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ökumenische Spielgruppen · Diakonieverein Buchloe</title>
-  <meta name="description" content="Spielgruppe in Buchloe für Kinder von 1,5–3 Jahren. Spielen, Entdecken & erste Freundschaften – begleitet von erfahrenen Betreuerinnen. Jetzt Platz sichern!">
+<title>Anmeldung - Spielgruppen Buchloe | Jetzt Platz sichern</title>
+  <meta name="description" content="Jetzt einen Platz in den Spielgruppen Buchloe sichern – deine Alternative zur Kita für Kinder ab 1,5 Jahren. Anmeldeschluss: Ende Juli 2026.">
   <meta name="google-site-verification" content="ktv-1zS37qDwi4cW6uz7-iqx4fC5AEx5D8Fb5lnVHWA" />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --blau:#0193de;--blau-dk:#0176b3;--blau-hell:#cceaf9;--blau-soft:#eaf6fd;
+  --weiss:#fff;--creme:#fdf9f4;--warm:#f0a830;--dunkel:#1a2e3d;--grau:#5d7080;
+  --font-h:'Nunito',sans-serif;--font-b:'Lora',serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-h);color:var(--dunkel);background:var(--weiss);}
+ 
+/* ── Sticky Countdown Bar ─────────────────────────── */
+#countdown-bar {
+  position: fixed;
+  top: 60px; /* direkt unter der Nav */
+  left: 0; right: 0;
+  z-index: 99;
+  background: linear-gradient(90deg, #1a2e3d 0%, #0d2033 100%);
+  border-bottom: 2px solid var(--warm);
+  padding: 8px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.cb-label {
+  font-family: var(--font-h);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--warm);
+  white-space: nowrap;
+}
+.cb-units {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.cb-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 8px;
+  padding: 4px 10px;
+  min-width: 46px;
+}
+.cb-num {
+  font-family: var(--font-h);
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.cb-ulab {
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: rgba(255,255,255,.45);
+  margin-top: 1px;
+}
+.cb-sep {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgba(255,255,255,.3);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.cb-cta {
+  background: var(--warm);
+  color: var(--dunkel);
+  font-family: var(--font-h);
+  font-size: 12px;
+  font-weight: 800;
+  padding: 7px 16px;
+  border-radius: 100px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.cb-cta:hover { background: #e09820; }
+#countdown-bar.expired .cb-units { display: none; }
+#countdown-bar.expired .cb-label { color: white; font-size: 13px; text-transform: none; letter-spacing: 0; }
+@media(max-width:560px){
+  .cb-label { font-size: 11px; }
+  .cb-num { font-size: 17px; }
+  .cb-unit { min-width: 38px; padding: 3px 7px; }
+  .cb-cta { display: none; }
+}
+ 
+/* ── Inline Countdown (Anmeldebereich) ─────────────── */
+.anmelde-countdown {
+  background: linear-gradient(135deg, var(--dunkel) 0%, #0d2033 100%);
+  border-radius: 18px;
+  padding: 26px 24px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(240,168,48,.25);
+  position: relative;
+  overflow: hidden;
+}
+.anmelde-countdown::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--warm), #e05a20);
+}
+.ac-label {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--warm);
+  margin-bottom: 10px;
+}
+.ac-headline {
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+.ac-units {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.ac-unit {
+  flex: 1;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  padding: 10px 6px 8px;
+  text-align: center;
+}
+.ac-num {
+  font-family: var(--font-h);
+  font-size: 26px;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.ac-ulab {
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: rgba(255,255,255,.4);
+  margin-top: 4px;
+}
+.ac-note {
+  font-family: var(--font-b);
+  font-size: 12px;
+  color: rgba(255,255,255,.5);
+  line-height: 1.5;
+}
+.ac-note strong { color: rgba(255,255,255,.75); font-style: italic; }
+.ac-expired-msg {
+  display: none;
+  font-family: var(--font-b);
+  font-size: 15px;
+  color: rgba(255,255,255,.8);
+  line-height: 1.6;
+}
+  
   <title>Wir lieben Cookies 🍪</title>
   <style id="COOKIE_CSS_BLOCK">
 /* ── Cookie-Banner ─────────────────────────────── */
@@ -159,8 +329,32 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
 
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .55s ease,transform .55s ease;}
 .reveal.vis{opacity:1;transform:none;}
+
+/* Body-Offset wegen sticky bar */
+body { padding-top: 0; }
+.hero { margin-top: 100px; } /* 60px nav + 40px countdown bar */
+@media(max-width:560px){ .hero { margin-top: 98px; } }
 </style>
 </head>
+ 
+<body>
+ 
+<!-- ── Sticky Countdown Bar ── -->
+<div id="countdown-bar">
+  <span class="cb-label">⏳ Anmeldeschluss 31. Juli 2026</span>
+  <div class="cb-units">
+    <div class="cb-unit"><div class="cb-num" id="cb-days">--</div><div class="cb-ulab">Tage</div></div>
+    <span class="cb-sep">:</span>
+    <div class="cb-unit"><div class="cb-num" id="cb-hours">--</div><div class="cb-ulab">Std</div></div>
+    <span class="cb-sep">:</span>
+    <div class="cb-unit"><div class="cb-num" id="cb-mins">--</div><div class="cb-ulab">Min</div></div>
+    <span class="cb-sep">:</span>
+    <div class="cb-unit"><div class="cb-num" id="cb-secs">--</div><div class="cb-ulab">Sek</div></div>
+  </div>
+  <a href="#anmeldung" class="cb-cta">Jetzt anmelden →</a>
+</div>
+ 
+<!-- ── Cookie Banner ── -->
 <div id="cookie-banner" role="dialog" aria-label="Cookie-Hinweis" aria-live="polite">
   <div class="cb-text">
     <p>
@@ -175,7 +369,6 @@ footer{background:var(--dunkel);color:white;padding:44px 6% 28px;}
     <button class="cb-accept" id="cb-accept-btn">Akzeptieren</button>
   </div>
 </div>
-  <body>
 
 <nav>
   <div class="nav-logo">
